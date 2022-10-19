@@ -15,3 +15,5 @@ Imports:
     htmltools,
     htmlwidgets,
     reactR
+URL: https://github.com/jonocarroll/sparklines
+BugReports: https://github.com/jonocarroll/sparklines/issues
