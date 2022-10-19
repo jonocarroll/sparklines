@@ -1,0 +1,39 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+library(sparklines)
+```
+
+
+# sparklines
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Following the excellent {[reactR][reactR]} [tutorial][reactR vignette] on wrapping a React library, namely  [react-sparklines][react-sparklines].
+
+## Example
+
+This is successful, and produces a nice sparkline
+
+``` r
+sparklines(rnorm(10), sparklinesLine())
+```
+
+![](man/figures/README-sparklines.png)
+
+More could be wrapped, but this was a nice proof-of-concept.
+
+[react-sparklines]: https://github.com/borisyankov/react-sparklines
+[reactR vignette]: https://react-r.github.io/reactR/articles/intro_htmlwidgets.html
+[reactR]: https://github.com/react-R/reactR/
